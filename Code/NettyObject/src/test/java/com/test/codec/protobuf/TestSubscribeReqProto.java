@@ -25,12 +25,12 @@ public class TestSubscribeReqProto {
 	private  static SubscribeReqProto.SubscribeReq createSubscribeReq(){
 		SubscribeReqProto.SubscribeReq.Builder builer=SubscribeReqProto.SubscribeReq.newBuilder();
 		builer.setSubReqID(1);
-		builer.setUserName("赵飞");
-		builer.setProductName("netty book");
-		builer.setAddress("北京市东城区飞创大厦27号");
+		builer.setUserName("张三");
+		builer.setProductName("netty book);
+		builer.setAddress("上海市东城区");
 		List<String> address=new ArrayList<String>();
-		address.add("beijingshidongchengqufeichuangdasha27hao");
-		address.add("beijingshihuilongguanchangpingqu");
+		address.add("beijingshidongchengqu");
+		address.add("beijingshihui");
 		return builer.build();
 	}
 	
